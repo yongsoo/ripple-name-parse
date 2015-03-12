@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/yongsoo/ripple-name-parse",
   "dependencies": {
+    "bluebird": "^2.9.14",
+    "promise-while": "^1.0.1",
     "superagent": "^1.0.0"
   }
 }
