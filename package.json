@@ -1,0 +1,22 @@
+{
+  "name": "ripple-name-parse",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yongsoo/ripple-name-parse"
+  },
+  "author": "Yong-Soo Chung <yongsoochung@gmail.com> (https://github.com/yongsoo)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yongsoo/ripple-name-parse/issues"
+  },
+  "homepage": "https://github.com/yongsoo/ripple-name-parse",
+  "dependencies": {
+    "superagent": "^1.0.0"
+  }
+}
