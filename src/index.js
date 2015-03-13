@@ -33,11 +33,11 @@ promiseWhile(
               var tempData = {};
               for (var i = 0; i < res.body.trustlines.length; i++) {
                 var line = res.body.trustlines[i];
-                if (tempData[line.counterparty]) {
+                if (tempData[line.currency]) {
                   acctsAffected.push(data[count-1]);
                   break;
                 } else {
-                  tempData[line.counterparty] = line.counterparty;
+                  tempData[line.currency] = line.currency;
                 }
               }
             }

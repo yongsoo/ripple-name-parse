@@ -2,4 +2,6 @@ node_modules
 npm-debug.log
 config.json
 data/data.js
+data/data2.js
+data/data3.js
 data/fakedata.js
